@@ -101,15 +101,43 @@ header {
 }
 
 
-.main-right {
-
+.right {
+  display: flex;
+  width: 65%;
+  border: 2px solid red;
 }
 
-.main-left {
-
+.left {
+    width: 35%;
+    border: 2px solid blue;
 }
 
 .main-right input {
   border: 2px solid grey;
   border-radius: 2px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+
+}
+
+.clear-filter {
+  color: #FF7874;
+}
+
+main {
+  display: flex;
+}
+
+.search-bar {
+  height: 40px;
+  width: 550px;
+}
+
+.card-top img {
+  width: 200px;
+  height: 200px;
 }
